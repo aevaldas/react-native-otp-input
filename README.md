@@ -45,6 +45,9 @@ import OTPInputView from '@twotalltotems/react-native-otp-input'
     onCodeFilled = {(code => {
         console.log(`Code is ${code}, you are good to go!`)
     })}
+    // placeholderCharacter={'*'}
+    // placeholderTextColor={'red'}
+    // selectionColor={"#03DAC6"}
 />
 
 const styles = StyleSheet.create({
